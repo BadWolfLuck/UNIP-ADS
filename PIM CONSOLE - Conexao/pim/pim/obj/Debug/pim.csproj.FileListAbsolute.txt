@@ -1,0 +1,97 @@
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\bin\Debug\pim.exe.config
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\bin\Debug\pim.exe
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\bin\Debug\pim.pdb
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\obj\Debug\pim.csprojAssemblyReference.cache
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\obj\Debug\pim.Properties.Resources.resources
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\obj\Debug\pim.csproj.GenerateResource.cache
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\obj\Debug\pim.csproj.CoreCompileInputs.cache
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\obj\Debug\pim.exe
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\obj\Debug\pim.pdb
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\obj\Debug\pim.View.MDIPrincipal.resources
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\obj\Debug\pim.View.FRMCadastroPessoaFisica.resources
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\obj\Debug\pim.View.FRMCadastroPessoaJuridica.resources
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\obj\Debug\pim.View.FRMCadastroFuncionario.resources
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\obj\Debug\pim.View.FRMCadastroServico.resources
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\obj\Debug\pim.View.FRMCadastroImpressora.resources
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\obj\Debug\pim.View.FRMCadastroPeca.resources
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\obj\Debug\pim.View.FRMConsultarPessoaFisica.resources
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\obj\Debug\pim.View.FRMConsultarPessoaJuridica.resources
+C:\Users\55199\Desktop\PIM CONSOLE\pim\pim\obj\Debug\pim.View.FRMConsultarFuncionario.resources
+C:\Users\55199\Desktop\PIM CONSOLE\PIM\pim\obj\Debug\pim.View.FRMConsultarPeca.resources
+C:\Users\55199\Desktop\PIM CONSOLE\PIM\pim\obj\Debug\pim.View.FRMConsultarServico.resources
+C:\Users\55199\Desktop\PIM CONSOLE\PIM\pim\obj\Debug\pim.View.FRMLogin.resources
+C:\Users\55199\Desktop\PIM CONSOLE\PIM\pim\bin\Debug\MySql.Data.dll
+C:\Users\55199\Desktop\PIM CONSOLE\PIM\pim\obj\Debug\pim.csproj.CopyComplete
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\bin\Debug\pim.exe.config
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\bin\Debug\pim.exe
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\bin\Debug\pim.pdb
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\bin\Debug\MySql.Data.dll
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.csprojAssemblyReference.cache
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.Properties.Resources.resources
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.View.FRMCadastroFuncionario.resources
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.View.FRMCadastroImpressora.resources
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.View.FRMCadastroPeca.resources
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.View.FRMCadastroPessoaFisica.resources
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.View.FRMCadastroPessoaJuridica.resources
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.View.FRMCadastroServico.resources
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.View.FRMConsultarFuncionario.resources
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.View.FRMConsultarPeca.resources
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.View.FRMConsultarPessoaFisica.resources
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.View.FRMConsultarPessoaJuridica.resources
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.View.FRMConsultarServico.resources
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.View.FRMLogin.resources
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.View.MDIPrincipal.resources
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.csproj.GenerateResource.cache
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.csproj.CoreCompileInputs.cache
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.csproj.CopyComplete
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.exe
+A:\Downloads\PIM CONSOLE - Copia\PIM CONSOLE - Copia\pim\pim\obj\Debug\pim.pdb
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\bin\Debug\pim.exe.config
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\bin\Debug\pim.exe
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\bin\Debug\pim.pdb
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\bin\Debug\MySql.Data.dll
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.csprojAssemblyReference.cache
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.Properties.Resources.resources
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMCadastroFuncionario.resources
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMCadastroImpressora.resources
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMCadastroPeca.resources
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMCadastroPessoaFisica.resources
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMCadastroPessoaJuridica.resources
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMCadastroServico.resources
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMConsultarFuncionario.resources
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMConsultarPeca.resources
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMConsultarPessoaFisica.resources
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMConsultarPessoaJuridica.resources
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMConsultarServico.resources
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMLogin.resources
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.MDIPrincipal.resources
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.csproj.GenerateResource.cache
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.csproj.CoreCompileInputs.cache
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.csproj.CopyComplete
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.exe
+C:\Users\55199\Desktop\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.pdb
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.csprojAssemblyReference.cache
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.Properties.Resources.resources
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMCadastroFuncionario.resources
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMCadastroImpressora.resources
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMCadastroPeca.resources
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMCadastroPessoaFisica.resources
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMCadastroPessoaJuridica.resources
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMCadastroServico.resources
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMConsultarFuncionario.resources
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMConsultarPeca.resources
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMConsultarPessoaFisica.resources
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMConsultarPessoaJuridica.resources
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMConsultarServico.resources
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.FRMLogin.resources
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.View.MDIPrincipal.resources
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.csproj.GenerateResource.cache
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.csproj.CoreCompileInputs.cache
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.exe
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.pdb
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\bin\Debug\pim.exe.config
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\bin\Debug\pim.exe
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\bin\Debug\pim.pdb
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\bin\Debug\MySql.Data.dll
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\bin\Debug\Google.Protobuf.dll
+E:\Lucas\Documentos\UNIP\PIM CONSOLE - Conexao\pim\pim\obj\Debug\pim.csproj.CopyComplete

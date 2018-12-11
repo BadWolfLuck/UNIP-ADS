@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+	@SuppressWarnings("unused")
+	public static void main(String[] args) {
+		int num1, num2, resultado ;
+		
+		System.out.println("Vamos somar?");
+		System.out.println("");
+		
+		Scanner sc1 = new Scanner(System.in);
+		System.out.println("Escreva um número:");
+		num1 = sc1.nextInt();
+		sc1.close();
+		
+		Scanner sc2 = new Scanner(System.in);
+		System.out.println("Escreva outro numero:");
+	    num2 = sc2.nextInt();
+	    sc2.close();
+	    resultado = num1+num2;
+	    
+	    System.out.println("O resultado da soma é: "+ resultado);
+	    
+	}
+
+}

@@ -1,0 +1,5 @@
+D:\Documentos\CETEC\Capacitações\ASP.NET Intermediário\Moodle\Exemplos\AplWebTextBox\AplWebTextBox\bin\AplWebTextBox.dll
+D:\Documentos\CETEC\Capacitações\ASP.NET Intermediário\Moodle\Exemplos\AplWebTextBox\AplWebTextBox\bin\AplWebTextBox.pdb
+D:\Documentos\CETEC\Capacitações\ASP.NET Intermediário\Moodle\Exemplos\AplWebTextBox\AplWebTextBox\obj\Debug\AplWebTextBox.csprojResolveAssemblyReference.cache
+D:\Documentos\CETEC\Capacitações\ASP.NET Intermediário\Moodle\Exemplos\AplWebTextBox\AplWebTextBox\obj\Debug\AplWebTextBox.dll
+D:\Documentos\CETEC\Capacitações\ASP.NET Intermediário\Moodle\Exemplos\AplWebTextBox\AplWebTextBox\obj\Debug\AplWebTextBox.pdb

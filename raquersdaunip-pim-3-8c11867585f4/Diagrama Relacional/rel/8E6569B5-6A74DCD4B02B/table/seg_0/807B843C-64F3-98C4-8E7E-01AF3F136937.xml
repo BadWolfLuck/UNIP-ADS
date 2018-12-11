@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="807B843C-64F3-98C4-8E7E-01AF3F136937" name="Cliente">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:04:09 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5D2D6E89-09A7-9CC1-1F3D-2C86259045C8">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:05:35 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="B12B9F49-8569-7261-2401-FDE3A87E713B">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:05:35 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="EFB731BF-E345-40C0-BD38-BDDEE2B37FD3">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:06:23 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereco" id="7136FC32-3461-6993-0339-0381E5F7A812">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:06:23 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024</dataTypeSize>
+<ownDataTypeParameters>1024,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ativo" id="567666E3-DF2C-3935-437E-37410259B4C6">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:06:53 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fidelidade" id="A9EA8394-82C2-062E-1D2D-4081EC9A73A0">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:07:30 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D99FA7F1-A4E6-11B1-853F-7916C1DBBD8F" name="Cliente_PK">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:05:35 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D2D6E89-09A7-9CC1-1F3D-2C86259045C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

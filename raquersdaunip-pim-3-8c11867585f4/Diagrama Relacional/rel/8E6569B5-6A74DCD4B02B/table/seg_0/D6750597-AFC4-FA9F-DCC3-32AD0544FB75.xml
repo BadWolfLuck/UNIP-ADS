@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6750597-AFC4-FA9F-DCC3-32AD0544FB75" name="Cliente_Servico">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:19:42 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cliente_ID" id="D0D747C1-DE78-18F2-DCB2-8AEE16464045">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:20:26 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9822B2D2-65B7-340E-6EF3-262BEF6D72EA" referredColumn="5D2D6E89-09A7-9CC1-1F3D-2C86259045C8"/>
+</associations>
+</Column>
+<Column name="Servico_Codigo" id="43760227-1298-3C48-24DE-11A5040B7183">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:21:00 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A05B6E1C-A065-0B96-1605-3C049895EF31" referredColumn="BEB2E37C-C786-1869-FF3A-A2C6036FCED6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE533ECD-339D-6234-A8A8-4124C27C192F" name="Cliente_Servico_PK">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:22:12 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0D747C1-DE78-18F2-DCB2-8AEE16464045"/>
+<colUsage columnID="43760227-1298-3C48-24DE-11A5040B7183"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6C217DC-DE7C-E883-8AF6-7602C2140EA9" name="IDCliente">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:20:26 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0D747C1-DE78-18F2-DCB2-8AEE16464045"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="902E0897-4425-00CC-ADE1-D4609ECF798A" name="CodigoServico">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:21:00 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43760227-1298-3C48-24DE-11A5040B7183"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

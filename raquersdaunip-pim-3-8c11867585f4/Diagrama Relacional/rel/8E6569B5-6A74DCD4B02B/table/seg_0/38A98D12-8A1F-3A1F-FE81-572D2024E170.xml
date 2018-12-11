@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38A98D12-8A1F-3A1F-FE81-572D2024E170" name="Financeiro">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:05:25 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="452EDC0F-C606-C012-C379-FFE7F1D30DBF">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:06:17 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valor" id="F0D8E154-DA1F-BD9F-6726-705766D193E4">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:06:17 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="F346471A-E3B6-E4FD-B622-3B83AC1F6131">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:06:17 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F06A9E9-2F31-2087-1D17-8EA84E8413C5" name="Financeiro_PK">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:06:17 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="452EDC0F-C606-C012-C379-FFE7F1D30DBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

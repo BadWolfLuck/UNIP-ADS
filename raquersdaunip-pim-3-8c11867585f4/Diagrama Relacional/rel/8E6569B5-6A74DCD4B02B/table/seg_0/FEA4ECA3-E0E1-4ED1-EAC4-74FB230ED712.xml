@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEA4ECA3-E0E1-4ED1-EAC4-74FB230ED712" name="Servico">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:16:12 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo" id="BEB2E37C-C786-1869-FF3A-A2C6036FCED6">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:17:21 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="8AD46802-2A11-79E9-E7D1-6D44A092E3D3">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:17:21 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numSerie" id="E67849A0-73A9-19E4-AAD7-90DB4EC91CBC">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:17:21 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Produto" id="E04F33FD-24FC-BB15-5E00-930105F936B4">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:17:21 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Defeito" id="BE050828-D4D2-57B5-2952-C60C541ACAA7">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:18:15 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024</dataTypeSize>
+<ownDataTypeParameters>1024,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Laudo" id="F7110B2D-E849-074B-7B97-23201BB8C67B">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:18:15 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024</dataTypeSize>
+<ownDataTypeParameters>1024,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07578E4D-67A3-38AD-6C50-99B3866B5FDD" name="Servico_PK">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:17:21 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEB2E37C-C786-1869-FF3A-A2C6036FCED6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

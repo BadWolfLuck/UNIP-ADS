@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D671CD41-C0E3-4BE2-F2C2-E549D8E167ED" containerWithKeyObject="587FA5D3-A761-4698-E217-C134C07D47EB" localFKIndex="A373535A-2781-DC05-D137-BCEA42F1580E" name="ModeloImpressora">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:37:34 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<referredTableLongName>Impressora</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>43A608A5-C03C-80AC-A953-D7C757F67866</referredTableID>
+<keyObject>1E92B73D-77C7-2B2D-50B6-3403D8097F8D</keyObject>
+<referredKeyID>1E92B73D-77C7-2B2D-50B6-3403D8097F8D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Modelo,Servico_Codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

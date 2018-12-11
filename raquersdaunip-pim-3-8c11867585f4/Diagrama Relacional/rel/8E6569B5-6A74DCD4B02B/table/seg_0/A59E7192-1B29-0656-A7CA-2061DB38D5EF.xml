@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A59E7192-1B29-0656-A7CA-2061DB38D5EF" name="Juridico">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:08:23 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CNPJ" id="24BD3F32-5EA1-102A-56A8-44E7F78693BD">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:08:58 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IE" id="53A1FF40-CC43-3D66-72A2-780AE24CDC38">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:08:58 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_ID" id="3FADF74B-FCE0-7537-E442-0F3A31CF0A24">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:15:20 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8C3CD54-BEEE-4324-FE59-4C9D77D8E8EE" referredColumn="5D2D6E89-09A7-9CC1-1F3D-2C86259045C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5C65003-DA7F-ECBF-EAB9-7C5C8D15DCD0" name="Juridico_PK">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:08:58 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24BD3F32-5EA1-102A-56A8-44E7F78693BD"/>
+<colUsage columnID="3FADF74B-FCE0-7537-E442-0F3A31CF0A24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB379F12-FBE0-89A5-4C53-4917C5A089D5" name="CienteJuridico">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:15:20 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FADF74B-FCE0-7537-E442-0F3A31CF0A24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

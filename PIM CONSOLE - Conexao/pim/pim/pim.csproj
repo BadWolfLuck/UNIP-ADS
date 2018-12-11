@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E7DAFBD-BFF6-4F8C-8218-D6C53C80D29E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>pim</RootNamespace>
+    <AssemblyName>pim</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>conexao\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Control\CTR_Autentificacao.cs" />
+    <Compile Include="Control\CTR_Pessoa.cs" />
+    <Compile Include="Control\CTR_Despesa.cs" />
+    <Compile Include="Control\CTR_Endereco.cs" />
+    <Compile Include="Control\CTR_Financeiro.cs" />
+    <Compile Include="Control\CTR_Fornecedor.cs" />
+    <Compile Include="Control\CTR_Funcionario.cs" />
+    <Compile Include="Control\CTR_Impressora.cs" />
+    <Compile Include="Control\CTR_Peca.cs" />
+    <Compile Include="Control\CTR_PessoaFisica.cs" />
+    <Compile Include="Control\CTR_PessoaJuridica.cs" />
+    <Compile Include="Control\CTR_Receita.cs" />
+    <Compile Include="Control\CTR_Servico.cs" />
+    <Compile Include="Dao\AutentificacaoDao.cs" />
+    <Compile Include="Dao\EnderecoDao.cs" />
+    <Compile Include="Dao\ConexaoDao.cs" />
+    <Compile Include="Dao\FuncionarioDao.cs" />
+    <Compile Include="Dao\PessoaDao.cs" />
+    <Compile Include="Dao\PessoaFisicaDao.cs" />
+    <Compile Include="Dao\PessoaJuridicaDao.cs" />
+    <Compile Include="Models\Autentificacao.cs" />
+    <Compile Include="Models\Pessoa.cs" />
+    <Compile Include="Models\Despesa.cs" />
+    <Compile Include="Models\Endereco.cs" />
+    <Compile Include="Models\Financeiro.cs" />
+    <Compile Include="Models\Fornecedor.cs" />
+    <Compile Include="Models\Funcionario.cs" />
+    <Compile Include="Models\Impressora.cs" />
+    <Compile Include="Models\Peca.cs" />
+    <Compile Include="Models\PessoaFisica.cs" />
+    <Compile Include="Models\PessoaJuridica.cs" />
+    <Compile Include="Models\Receita.cs" />
+    <Compile Include="Models\Servico.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\FRMCadastroFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRMCadastroFuncionario.Designer.cs">
+      <DependentUpon>FRMCadastroFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FRMCadastroImpressora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRMCadastroImpressora.Designer.cs">
+      <DependentUpon>FRMCadastroImpressora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FRMCadastroPeca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRMCadastroPeca.Designer.cs">
+      <DependentUpon>FRMCadastroPeca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FRMCadastroPessoaFisica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRMCadastroPessoaFisica.Designer.cs">
+      <DependentUpon>FRMCadastroPessoaFisica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FRMCadastroPessoaJuridica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRMCadastroPessoaJuridica.Designer.cs">
+      <DependentUpon>FRMCadastroPessoaJuridica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FRMCadastroServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRMCadastroServico.Designer.cs">
+      <DependentUpon>FRMCadastroServico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FRMConsultarFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRMConsultarFuncionario.Designer.cs">
+      <DependentUpon>FRMConsultarFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FRMConsultarPeca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRMConsultarPeca.Designer.cs">
+      <DependentUpon>FRMConsultarPeca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FRMConsultarPessoaFisica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRMConsultarPessoaFisica.Designer.cs">
+      <DependentUpon>FRMConsultarPessoaFisica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FRMConsultarPessoaJuridica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRMConsultarPessoaJuridica.Designer.cs">
+      <DependentUpon>FRMConsultarPessoaJuridica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FRMConsultarServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRMConsultarServico.Designer.cs">
+      <DependentUpon>FRMConsultarServico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FRMLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRMLogin.Designer.cs">
+      <DependentUpon>FRMLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MDIPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MDIPrincipal.Designer.cs">
+      <DependentUpon>MDIPrincipal.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\FRMCadastroFuncionario.resx">
+      <DependentUpon>FRMCadastroFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FRMCadastroImpressora.resx">
+      <DependentUpon>FRMCadastroImpressora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FRMCadastroPeca.resx">
+      <DependentUpon>FRMCadastroPeca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FRMCadastroPessoaFisica.resx">
+      <DependentUpon>FRMCadastroPessoaFisica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FRMCadastroPessoaJuridica.resx">
+      <DependentUpon>FRMCadastroPessoaJuridica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FRMCadastroServico.resx">
+      <DependentUpon>FRMCadastroServico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FRMConsultarFuncionario.resx">
+      <DependentUpon>FRMConsultarFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FRMConsultarPeca.resx">
+      <DependentUpon>FRMConsultarPeca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FRMConsultarPessoaFisica.resx">
+      <DependentUpon>FRMConsultarPessoaFisica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FRMConsultarPessoaJuridica.resx">
+      <DependentUpon>FRMConsultarPessoaJuridica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FRMConsultarServico.resx">
+      <DependentUpon>FRMConsultarServico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FRMLogin.resx">
+      <DependentUpon>FRMLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MDIPrincipal.resx">
+      <DependentUpon>MDIPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

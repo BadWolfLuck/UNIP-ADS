@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="587FA5D3-A761-4698-E217-C134C07D47EB" name="Peca">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:35:14 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodPeça" id="31F4B867-764C-EF8C-3D1B-0A7DB55873DE">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:37:09 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="13CC9D2A-662D-865C-AECE-A5BD6CAB0A73">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:37:09 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fornecedor" id="6AEE82EC-B1B2-76B2-88E5-69F4719919ED">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:37:09 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValorCompra" id="6035117C-7407-3446-C9EF-79AF24B36550">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:37:09 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValorVenda" id="A081AEFB-62B2-FBDF-0D07-A4C7BAC3B527">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:37:09 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantidade" id="6E3B8D4D-A4E4-B043-0D5F-0F335DE3F2E9">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:37:09 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Impressora_Modelo" id="07C411A6-85D3-CD0B-1D74-68D30ABD0C21">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:37:34 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D671CD41-C0E3-4BE2-F2C2-E549D8E167ED" referredColumn="95ACE80E-34AE-00A2-960C-BA8B671216FF"/>
+</associations>
+</Column>
+<Column name="Fornecedor_ID" id="7DD3946A-F690-F35D-C325-89DD26E47439">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:49:32 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE50F908-85A3-E33D-3760-5DC5A7896E85" referredColumn="99900C01-E7B2-AE46-B8FC-262315151B4D"/>
+</associations>
+</Column>
+<Column name="Impressora_Servico_Codigo" id="713E6ECC-BB4D-A5E4-4993-66EB97B81268">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:50:33 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D671CD41-C0E3-4BE2-F2C2-E549D8E167ED" referredColumn="900B8864-6FA5-D3C2-9DA7-9A199F5D7711"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8836D6F-1B12-B585-0A49-4E16F1338665" name="Peca_PK">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:37:09 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31F4B867-764C-EF8C-3D1B-0A7DB55873DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A373535A-2781-DC05-D137-BCEA42F1580E" name="ModeloImpressora">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:37:34 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07C411A6-85D3-CD0B-1D74-68D30ABD0C21"/>
+<colUsage columnID="713E6ECC-BB4D-A5E4-4993-66EB97B81268"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA8D63A0-77C7-4FC5-94D9-375ACE4828F9" name="IDFornecedor">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:49:32 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DD3946A-F690-F35D-C325-89DD26E47439"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

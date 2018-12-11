@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="frmWebPrincipal.master.cs" Inherits="AplWebMasterPage_2.frmWebPrincipal" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Entendendo a Master Page</title>
+    <link href="App_Themes/CSS/cssEstilos.css" rel="stylesheet" />
+    <script>
+        function fnValidarDados()
+        {
+            if (document.getElementById("frmWebPrincipal").txtNome.value == '') {
+                alert('Campo Nome vazio!!');
+                document.getElementById("frmWebPrincipal").txtNome.focus();
+            }
+            else if (document.getElementById("frmWebPrincipal").txtEMail.value == '') {
+                alert('Campo E-Mail vazio!!');
+                document.getElementById("frmWebPrincipal").txtEMail.focus();
+            }
+            else if (document.getElementById("frmWebPrincipal").txtTelefone.value == '') {
+                alert('Campo Telefone vazio!!');
+                document.getElementById("frmWebPrincipal").txtTelefone.focus();
+            }
+            else if (document.getElementById("frmWebPrincipal").cboAssunto.options[document.getElementById("frmWebPrincipal").cboAssunto.selectedIndex].value == '') {
+                alert('Nenhum assunto foi selecionado!!');
+                document.getElementById("frmWebPrincipal").txtEMail.focus();
+            }
+            else
+            {
+                document.getElementById("frmWebPrincipal").action = 'frmWebExibirDados.aspx';
+                document.getElementById("frmWebPrincipal").submit();
+            }
+            return false;
+       }
+    </script>
+</head>
+<body>
+    <form id="frmWebPrincipal" runat="server">
+        <asp:ContentPlaceHolder ID="cphTitulo" runat="server">
+            <div id="dvTitulo">
+                <table width="1200" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="200" class="clsTitulo" align="center" valign="middle">
+                            Entendendo a Master Page
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="cphMenu" runat="server">
+            <div id="dvMenu">
+                <table width="1200" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="300" height="50" class="clsTextoMenu">
+                            <a href="Default.aspx">
+                                Principal
+                            </a>
+                        </td>
+                        <td width="300" height="50" class="clsTextoMenu">
+                            <a href="frmQuemSomos.aspx">
+                                Quem Somos
+                            </a>
+                        </td>
+                        <td width="300" height="50" class="clsTextoMenu">
+                            <a href="frmProdutos.aspx">
+                                Produtos
+                            </a>
+                        </td>
+                        <td width="300" height="50" class="clsTextoMenu">
+                            <a href="frmContato.aspx">
+                                Contato
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="cphCorpoPrincipal" runat="server">
+            <div id="dvCorpoPrincipal">
+                <table width="1200" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="400" class="clsTexto30" align="center" valign="middle">
+                            Página Principal
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="cphRodape" runat="server">
+            <div id="dvRodape">
+                <table width="1200" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="20" class="clsTexto14BR" align="center" valign="middle">
+                            Capacita&ccedil;&atilde;o ASP.NET &oacute;dulo B&aacute;sico &reg;
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+1.Camadas monoliticas possuem um alto risco de ocorrer erros ao realizar alterções nocódigo, a manutenibilidade é defasada. 
+O método de duas camadas apresenta uma melhoria, mas ainda tem uma dependencia ao realizar alterações pois ao modificar uma camada ainda é necessário alterar a outra para evitar erros no sistema.
+Já o método de três camadas é mais complicado de se trabalhar mas facilita a manutenibilidade, o reaproveitamento do código, a segurança, o versionamento para outras plataformas e etc. Tudo isso sem afetar diretamente outras camadas ao realizar uma alteração.
+
+2.Os padrões de projeto são técnicas para facilitar, organizar e padronizar(é claro kkk) a maneira como se desenvolve determinado software, isso permite um entedimento do código de qualquer um com o conhecimento sobre o padrão utilizado, além de otimizar o software que está sendo desenvolvido.
+
+3.O padrão MVC opera em 3 camadas, o modelo que armazena toda a informação de uma classe, o controle que armazena todos os métodos que serão utilizados por essa classe e a view que apresentara e servirá para interagir com o usuário.
+
+4.O MVP opera também opera em 3 camadas a modelo contem as informaçoes, a view que é responsável pela interação com o usuário, e a presenter que recupera os dados dos repositórios e os formata para exibi-los na view.
+
+5.O MVVM opera da mesma forma que o MVC só que possui o foco para desenvolvimento WPF e Silverlight.
+
+6.Sim, a necissade de utilizar o MVC ao desenvilver o PIM vem do fato de que será necessário que os grupos desenvolvam um software que esteja presente em três plataformas diferentes(WEB,Desktop e Mobile).

@@ -1,0 +1,10 @@
+CREATE TABLE cliente (
+    cpf        FLOAT(11) NOT NULL,
+    rg         FLOAT(13) NOT NULL,
+    nome       varchar(256) NOT NULL,
+    idade      integer NOT NULL,
+    endereco   VARCHAR(1000) NOT NULL,
+    limite     FLOAT NOT NULL
+);
+
+ALTER TABLE cliente ADD CONSTRAINT cliente_pk PRIMARY KEY ( cpf );

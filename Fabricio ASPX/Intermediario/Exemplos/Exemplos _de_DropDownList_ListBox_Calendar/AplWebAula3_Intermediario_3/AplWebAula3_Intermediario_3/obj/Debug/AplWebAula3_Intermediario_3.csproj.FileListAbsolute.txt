@@ -1,0 +1,5 @@
+D:\Documentos\CETEC\Capacitações\ASP.NET Intermediário\Moodle\Exemplos\AplWebAula3_Intermediario_3\AplWebAula3_Intermediario_3\obj\Debug\AplWebAula3_Intermediario_3.csprojResolveAssemblyReference.cache
+D:\Documentos\CETEC\Capacitações\ASP.NET Intermediário\Moodle\Exemplos\AplWebAula3_Intermediario_3\AplWebAula3_Intermediario_3\bin\AplWebAula3_Intermediario_3.dll
+D:\Documentos\CETEC\Capacitações\ASP.NET Intermediário\Moodle\Exemplos\AplWebAula3_Intermediario_3\AplWebAula3_Intermediario_3\bin\AplWebAula3_Intermediario_3.pdb
+D:\Documentos\CETEC\Capacitações\ASP.NET Intermediário\Moodle\Exemplos\AplWebAula3_Intermediario_3\AplWebAula3_Intermediario_3\obj\Debug\AplWebAula3_Intermediario_3.dll
+D:\Documentos\CETEC\Capacitações\ASP.NET Intermediário\Moodle\Exemplos\AplWebAula3_Intermediario_3\AplWebAula3_Intermediario_3\obj\Debug\AplWebAula3_Intermediario_3.pdb

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="826A2ACE-83D5-45DA-A718-77EF29F8E904" name="Despesa">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:07:29 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="17BCF809-4D41-74CC-1E90-6797E23F3779">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:08:03 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Compahia" id="19A48052-A4C2-42ED-001F-ECDA9D2AD46E">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:08:03 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Financeiro_ID" id="27968BD8-A43C-013E-9064-9202E6AD3975">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:09:34 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="556E15E8-26B0-908F-FDAF-2D0AED9F9F18" referredColumn="452EDC0F-C606-C012-C379-FFE7F1D30DBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D5E8656-7C55-A972-6663-FC6589C19147" name="Despesa_PK">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:08:03 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17BCF809-4D41-74CC-1E90-6797E23F3779"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A59BDC2-72CD-B927-B9AA-695092A02D7C" name="FinaceiroDespesa">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:09:34 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27968BD8-A43C-013E-9064-9202E6AD3975"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

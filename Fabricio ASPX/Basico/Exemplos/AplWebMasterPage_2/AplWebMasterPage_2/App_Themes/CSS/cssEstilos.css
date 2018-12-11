@@ -1,0 +1,81 @@
+﻿body {
+    margin: auto;
+    padding: 0px;
+    font-family: Calibri;
+    font-size: 14px;
+    width: 1200px;
+}
+
+#dvTitulo {
+    width: 1200px;
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #860303;
+    color: #ffffff;
+}
+
+#dvMenu {
+    width: 1200px;
+    height: 50px;
+    background-color: #f4c3c3;
+}
+
+#dvCorpoPrincipal #dvQuemSomos #dvProdutos #dvContato {
+    width: 1200px;
+    height: 400px;
+    background-color: #f1eded;
+}
+
+#dvRodape {
+    width: 1200px;
+    height: 20px;
+    background-color: #860303;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clsTitulo {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.clsTexto14BR {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.clsTexto14VM {
+    font-size: 14px;
+    color: #860303;
+}
+
+.clsTexto25VM {
+    font-size: 25px;
+    color: #860303;
+}
+
+.clsTexto30 {
+    color: #860303;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.clsTextoMenu {
+    color: #860303;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.clsTextoMenu:hover {
+    color: #860303;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+}

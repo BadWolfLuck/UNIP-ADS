@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DE50F908-85A3-E33D-3760-5DC5A7896E85" containerWithKeyObject="587FA5D3-A761-4698-E217-C134C07D47EB" localFKIndex="FA8D63A0-77C7-4FC5-94D9-375ACE4828F9" name="IDFornecedor">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:49:32 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<referredTableLongName>Fornecedor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BEF294CF-063D-905E-D266-2BA664D15C5C</referredTableID>
+<keyObject>EC11B6B1-0D81-7A04-CFAA-C050D84832A6</keyObject>
+<referredKeyID>EC11B6B1-0D81-7A04-CFAA-C050D84832A6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

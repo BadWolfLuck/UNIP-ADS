@@ -1,0 +1,11 @@
+D:\Documentos\CETEC\Capacitações\ASP.NET Básico\Exemplos\AplWebMasterPage_2\AplWebMasterPage_2\bin\AplWebMasterPage_2.dll
+D:\Documentos\CETEC\Capacitações\ASP.NET Básico\Exemplos\AplWebMasterPage_2\AplWebMasterPage_2\bin\AplWebMasterPage_2.pdb
+D:\Documentos\CETEC\Capacitações\ASP.NET Básico\Exemplos\AplWebMasterPage_2\AplWebMasterPage_2\obj\Debug\AplWebMasterPage_2.csprojResolveAssemblyReference.cache
+D:\Documentos\CETEC\Capacitações\ASP.NET Básico\Exemplos\AplWebMasterPage_2\AplWebMasterPage_2\obj\Debug\AplWebMasterPage_2.dll
+D:\Documentos\CETEC\Capacitações\ASP.NET Básico\Exemplos\AplWebMasterPage_2\AplWebMasterPage_2\obj\Debug\AplWebMasterPage_2.pdb
+D:\Documentos\CETEC\ASP.NET Básico\Moodle\Exemplos\AplWebMasterPage_2\AplWebMasterPage_2\bin\AplWebMasterPage_2.dll.config
+D:\Documentos\CETEC\ASP.NET Básico\Moodle\Exemplos\AplWebMasterPage_2\AplWebMasterPage_2\bin\AplWebMasterPage_2.dll
+D:\Documentos\CETEC\ASP.NET Básico\Moodle\Exemplos\AplWebMasterPage_2\AplWebMasterPage_2\bin\AplWebMasterPage_2.pdb
+D:\Documentos\CETEC\ASP.NET Básico\Moodle\Exemplos\AplWebMasterPage_2\AplWebMasterPage_2\obj\Debug\AplWebMasterPage_2.csprojResolveAssemblyReference.cache
+D:\Documentos\CETEC\ASP.NET Básico\Moodle\Exemplos\AplWebMasterPage_2\AplWebMasterPage_2\obj\Debug\AplWebMasterPage_2.dll
+D:\Documentos\CETEC\ASP.NET Básico\Moodle\Exemplos\AplWebMasterPage_2\AplWebMasterPage_2\obj\Debug\AplWebMasterPage_2.pdb

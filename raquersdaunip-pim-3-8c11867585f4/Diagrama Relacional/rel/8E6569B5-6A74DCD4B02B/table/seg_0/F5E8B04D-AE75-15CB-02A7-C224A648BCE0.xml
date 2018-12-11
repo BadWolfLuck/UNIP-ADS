@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5E8B04D-AE75-15CB-02A7-C224A648BCE0" name="Produto">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:02:03 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo" id="03B0AC03-FE5D-224C-0D11-C3F68E5B426A">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:03:18 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="8443FB91-63E3-77AA-B5A7-19EA6F3DC714">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:03:18 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valor" id="965DEC37-212A-AF2D-65A1-2FB221CD474E">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:03:18 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53A40206-8F93-1F99-5601-195D6D0BAC4C" name="Produto_PK">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:03:18 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03B0AC03-FE5D-224C-0D11-C3F68E5B426A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

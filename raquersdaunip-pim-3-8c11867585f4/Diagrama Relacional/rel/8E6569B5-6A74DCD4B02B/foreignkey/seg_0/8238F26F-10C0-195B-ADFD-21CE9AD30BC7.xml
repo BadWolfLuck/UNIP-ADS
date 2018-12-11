@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8238F26F-10C0-195B-ADFD-21CE9AD30BC7" containerWithKeyObject="1EF16CC8-5DA3-E0D7-D936-67BC53954BD6" localFKIndex="F184C6D9-2AC2-6E6F-4469-8D8C1A741E33" name="LoginAutenticacao">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:04:00 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<referredTableLongName>Autenticacao</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FF0D090C-1EB0-5975-65F2-08C038759ACF</referredTableID>
+<keyObject>C337D88F-55EB-EC8F-D4BF-D26AB7EE83CD</keyObject>
+<referredKeyID>C337D88F-55EB-EC8F-D4BF-D26AB7EE83CD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Login</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

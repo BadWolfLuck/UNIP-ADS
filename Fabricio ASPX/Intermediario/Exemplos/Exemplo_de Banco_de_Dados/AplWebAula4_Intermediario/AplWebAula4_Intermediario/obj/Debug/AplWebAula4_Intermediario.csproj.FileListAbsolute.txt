@@ -1,0 +1,8 @@
+D:\Documentos\CETEC\Capacitações\ASP.NET Intermediário\Moodle\Exemplos\AplWebAula4_Intermediario\AplWebAula4_Intermediario\bin\AplWebAula4_Intermediario.dll
+D:\Documentos\CETEC\Capacitações\ASP.NET Intermediário\Moodle\Exemplos\AplWebAula4_Intermediario\AplWebAula4_Intermediario\bin\AplWebAula4_Intermediario.pdb
+D:\Documentos\CETEC\Capacitações\ASP.NET Intermediário\Moodle\Exemplos\AplWebAula4_Intermediario\AplWebAula4_Intermediario\obj\Debug\AplWebAula4_Intermediario.csprojResolveAssemblyReference.cache
+D:\Documentos\CETEC\Capacitações\ASP.NET Intermediário\Moodle\Exemplos\AplWebAula4_Intermediario\AplWebAula4_Intermediario\obj\Debug\AplWebAula4_Intermediario.dll
+D:\Documentos\CETEC\Capacitações\ASP.NET Intermediário\Moodle\Exemplos\AplWebAula4_Intermediario\AplWebAula4_Intermediario\obj\Debug\AplWebAula4_Intermediario.pdb
+D:\Documentos\CETEC\ASP.NET Intermediário\Moodle\Exemplos\Exemplo_de Banco_de_Dados\AplWebAula4_Intermediario\AplWebAula4_Intermediario\obj\Debug\AplWebAula4_Intermediario.csprojResolveAssemblyReference.cache
+D:\Documentos\CETEC\ASP.NET Intermediário\Moodle\Exemplos\Exemplo_de Banco_de_Dados\AplWebAula4_Intermediario\AplWebAula4_Intermediario\obj\Debug\AplWebAula4_Intermediario.dll
+D:\Documentos\CETEC\ASP.NET Intermediário\Moodle\Exemplos\Exemplo_de Banco_de_Dados\AplWebAula4_Intermediario\AplWebAula4_Intermediario\obj\Debug\AplWebAula4_Intermediario.pdb

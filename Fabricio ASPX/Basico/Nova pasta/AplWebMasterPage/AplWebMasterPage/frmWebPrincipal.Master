@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="frmWebPrincipal.master.cs" Inherits="AplWebMasterPage.frmWebPrincipal" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <title>Formul&aacute;rio com Master Page</title>
+        <link href="App_Themes/CSS/cssEstilos.css" rel="stylesheet" />
+    </head>
+    <body>
+        <form id="frmWebPrincipal" method="post" action="" runat="server">
+            <asp:ContentPlaceHolder ID="cphTitulo" runat="server">
+                <div id="dvTitulo">
+                    Titulo
+                </div>
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="cphMenuPrincipal" runat="server">
+                <div id="dvMenuPrincipal">
+                    <table width="1024px" cellspacing="0px" cellpadding="0px" border="0">
+                        <tr>
+                            <td height="50px" class="clsMenu">
+                                <a href="Default.aspx">
+                                    Principal
+                                </a>
+                            </td>
+                            <td height="50px" class="clsMenu">
+                                <a href="frmWebQuemSomos.aspx">
+                                    Quem Somos
+                                </a>
+                            </td>
+                            <td height="50px" class="clsMenu">
+                                <a href="frmWebAreaRestrita.aspx">
+                                    &Aacute;rea restrita
+                                </a>
+                            </td>
+                            <td height="50px" class="clsMenu">
+                                <a href="frmWebContato.aspx">
+                                    Contato
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="cphConteudo" runat="server">
+                <div id="dvConteudo">
+                    Conteudo
+                </div>
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="cphRodape" runat="server">
+                <div ixd="dvRodape">
+                    Rodape
+                </div>
+            </asp:ContentPlaceHolder>
+        </form>
+    </body>
+</html>

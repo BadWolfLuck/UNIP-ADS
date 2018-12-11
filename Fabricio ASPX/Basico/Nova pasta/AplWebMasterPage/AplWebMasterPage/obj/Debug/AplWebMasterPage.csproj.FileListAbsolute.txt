@@ -1,0 +1,12 @@
+D:\Sistemas\Aulas\Web\AplWebMasterPage\AplWebMasterPage\bin\AplWebMasterPage.dll
+D:\Sistemas\Aulas\Web\AplWebMasterPage\AplWebMasterPage\bin\AplWebMasterPage.pdb
+D:\Sistemas\Aulas\Web\AplWebMasterPage\AplWebMasterPage\obj\Debug\AplWebMasterPage.dll
+D:\Sistemas\Aulas\Web\AplWebMasterPage\AplWebMasterPage\obj\Debug\AplWebMasterPage.pdb
+D:\Sistemas\Aulas\Web\AplWebMasterPage\AplWebMasterPage\obj\Debug\AplWebMasterPage.csprojResolveAssemblyReference.cache
+C:\Users\LAdos\Downloads\Fabricio ASPX\Basico\Nova pasta\AplWebMasterPage\AplWebMasterPage\bin\AplWebMasterPage.dll.config
+C:\Users\LAdos\Downloads\Fabricio ASPX\Basico\Nova pasta\AplWebMasterPage\AplWebMasterPage\bin\AplWebMasterPage.dll
+C:\Users\LAdos\Downloads\Fabricio ASPX\Basico\Nova pasta\AplWebMasterPage\AplWebMasterPage\bin\AplWebMasterPage.pdb
+C:\Users\LAdos\Downloads\Fabricio ASPX\Basico\Nova pasta\AplWebMasterPage\AplWebMasterPage\obj\Debug\AplWebMasterPage.csprojAssemblyReference.cache
+C:\Users\LAdos\Downloads\Fabricio ASPX\Basico\Nova pasta\AplWebMasterPage\AplWebMasterPage\obj\Debug\AplWebMasterPage.csproj.CoreCompileInputs.cache
+C:\Users\LAdos\Downloads\Fabricio ASPX\Basico\Nova pasta\AplWebMasterPage\AplWebMasterPage\obj\Debug\AplWebMasterPage.dll
+C:\Users\LAdos\Downloads\Fabricio ASPX\Basico\Nova pasta\AplWebMasterPage\AplWebMasterPage\obj\Debug\AplWebMasterPage.pdb

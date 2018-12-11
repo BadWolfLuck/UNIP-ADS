@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EF16CC8-5DA3-E0D7-D936-67BC53954BD6" name="Pedido">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:58:57 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo" id="9CE108A1-29FA-7683-3E62-10BB24498A43">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:00:32 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valor" id="3AD33F65-33ED-B908-0F8F-1D10EF5C2B12">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:00:32 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Situação" id="89FD9FB4-FEA0-C40A-9428-AE38C0F2D418">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:00:32 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024</dataTypeSize>
+<ownDataTypeParameters>1024,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Autenticacao_Login" id="1D2BFC35-F77A-618B-BAFB-8C450915E2D8">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:04:00 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8238F26F-10C0-195B-ADFD-21CE9AD30BC7" referredColumn="A2666BBB-0287-DEE6-C70C-F997DA3805E4"/>
+</associations>
+</Column>
+<Column name="Produto_Codigo" id="DD95669C-C97A-2AEA-03B8-06C36650C7FE">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:04:39 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="694F9349-2427-FA4C-A286-9D2EEC57673B" referredColumn="03B0AC03-FE5D-224C-0D11-C3F68E5B426A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E908073-E577-D1D7-F682-7F7710FFB9E4" name="Pedido_PK">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:00:32 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CE108A1-29FA-7683-3E62-10BB24498A43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F184C6D9-2AC2-6E6F-4469-8D8C1A741E33" name="LoginAutenticacao">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:04:00 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D2BFC35-F77A-618B-BAFB-8C450915E2D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC6AFA57-83DD-FF86-4A11-B24E07E1EFC4" name="CodigoProduto">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 23:04:39 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD95669C-C97A-2AEA-03B8-06C36650C7FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

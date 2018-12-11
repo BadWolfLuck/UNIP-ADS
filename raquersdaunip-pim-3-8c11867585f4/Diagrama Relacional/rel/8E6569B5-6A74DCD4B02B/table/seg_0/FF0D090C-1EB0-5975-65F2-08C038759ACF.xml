@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF0D090C-1EB0-5975-65F2-08C038759ACF" name="Autenticacao">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:56:05 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Login" id="A2666BBB-0287-DEE6-C70C-F997DA3805E4">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:56:54 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Senha" id="2B7ACE8F-CD57-94F9-EB6E-B9B0C0BE619C">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:56:54 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_ID" id="C9439BD8-FF64-0271-CD40-68A8A4BCB797">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:58:09 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C10F5F1-FBFF-6C57-4AB9-16A34119E190" referredColumn="5D2D6E89-09A7-9CC1-1F3D-2C86259045C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C337D88F-55EB-EC8F-D4BF-D26AB7EE83CD" name="Autenticacao_PK">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:56:54 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2666BBB-0287-DEE6-C70C-F997DA3805E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73A9660C-8213-0CC2-569C-3C3BC2F92061" name="IDClientev2">
+<createdBy>LAdos</createdBy>
+<createdTime>2018-11-07 22:58:09 UTC</createdTime>
+<ownerDesignName>Diagrama Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9439BD8-FF64-0271-CD40-68A8A4BCB797"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

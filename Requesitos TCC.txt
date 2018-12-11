@@ -1,0 +1,14 @@
+*Apresentar membros do grupo.
+*Apresentar o tema do que etá sendo desenvolvido.
+Apresentar detalhes sovre o que está sendo desenvolvido(como deveria ser).
+Apresentar qual banco está sendo utillizado.
+Apresentar projeto.
+Por que comprar?
+BI(Se possível).
+Apresentar diagrama/documentação.
+*Apresentar considerações finais.
+*Apresentar referências bibliográficas.
+
+
+
+*<Obrigatório.>

@@ -1,0 +1,5 @@
+D:\Documentos\CETEC\Capacitações\ASP.NET Básico\Exemplos\AplWebMasterPage\AplWebMasterPage\bin\AplWebMasterPage.dll
+D:\Documentos\CETEC\Capacitações\ASP.NET Básico\Exemplos\AplWebMasterPage\AplWebMasterPage\bin\AplWebMasterPage.pdb
+D:\Documentos\CETEC\Capacitações\ASP.NET Básico\Exemplos\AplWebMasterPage\AplWebMasterPage\obj\Debug\AplWebMasterPage.csprojResolveAssemblyReference.cache
+D:\Documentos\CETEC\Capacitações\ASP.NET Básico\Exemplos\AplWebMasterPage\AplWebMasterPage\obj\Debug\AplWebMasterPage.dll
+D:\Documentos\CETEC\Capacitações\ASP.NET Básico\Exemplos\AplWebMasterPage\AplWebMasterPage\obj\Debug\AplWebMasterPage.pdb

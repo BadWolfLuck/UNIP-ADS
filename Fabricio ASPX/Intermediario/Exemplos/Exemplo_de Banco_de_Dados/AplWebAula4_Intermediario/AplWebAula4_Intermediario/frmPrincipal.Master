@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="frmPrincipal.master.cs" Inherits="AplWebAula4_Intermediario.frmPrincipal" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+        <title></title>
+        <link href="App_Themes/CSS/cssEstilos.css" rel="stylesheet" />
+        <script language="javascript" type="text/javascript">
+            function Validar() {
+                PageMethods.Validacao();
+                return false;
+            }
+        </script>
+    </head>
+    <body>
+        <form id="form1" runat="server">
+            <div id="conteudo">
+                <div id="titulo">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Imagens/btnTitulo.png" />
+                </div>
+                <div id="menuhorizontal">
+                    <asp:ImageButton ID="btnConsultar" runat="server" CssClass="align_img" 
+                        ImageUrl="~/Imagens/Botoes/btnConsultar.png" onclick="btnConsultar_Click" />
+                    <asp:ImageButton ID="btnCadastrar" runat="server" CssClass="align_img" 
+                        ImageUrl="~/Imagens/Botoes/btnCadastrar.png" onclick="btnCadastrar_Click" />
+                    <asp:ImageButton ID="btnAlterar" runat="server" CssClass="align_img" 
+                        ImageUrl="~/Imagens/Botoes/btnAlterar.png" onclick="btnAlterar_Click" />
+                    <asp:ImageButton ID="btnExcluir" runat="server" CssClass="align_img" 
+                        ImageUrl="~/Imagens/Botoes/btnExcluir.png" onclick="btnExcluir_Click" />
+                    <asp:ImageButton ID="btnLimpar" runat="server" CssClass="align_img" ImageUrl="~/Imagens/Botoes/btnLimpar.png" onclick="btnLimpar_Click" />
+                    <asp:ImageButton ID="btnVazio" runat="server" CssClass="align_img" ImageUrl="~/Imagens/Botoes/btnVazio.png" />
+                    <asp:ImageButton ID="btnVazio1" runat="server" CssClass="align_img" ImageUrl="~/Imagens/Botoes/btnVazio.png" />
+                </div>
+                <div id="centro">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        <table id="tblAreaCentral">
+                            <tr>
+                                <td class="align_td" align="center">
+                                    <asp:Label ID="lblMensagem" runat="server"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <asp:Label ID="Label1" runat="server" Text="Código:"></asp:Label>
+                                    &nbsp;
+                                    <asp:TextBox ID="txtCodigo" runat="server" MaxLength="50" Width="120px"></asp:TextBox>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <asp:Label ID="Label2" runat="server" Text="Nome:"></asp:Label>
+                                    &nbsp;
+                                    <asp:TextBox ID="txtNome" runat="server" Width="670px" MaxLength="50"></asp:TextBox>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <asp:Label ID="Label3" runat="server" Text="Telefone:"></asp:Label>
+                                    &nbsp;
+                                    <asp:TextBox ID="txtFone" runat="server" MaxLength="13"></asp:TextBox>
+                                </td>
+                            </tr>
+                        </table>
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div id="rodape">
+                    Centro Paula Sousa - Etec de Hortol&atilde;ndia - Todos os direitos reservados.
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

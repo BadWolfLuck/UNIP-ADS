@@ -1,0 +1,8 @@
+Modelagem de Dados - 12hr OK
+Fundamentos de logica de progamamção -  15hr OK
+HTML Básico - 11hr OK
+HTML Avançado - 6hr OK
+Inovando com CSS - 26hr
+
+TV Web UNIP - Aplicação para Dispositivos Móveis
+Java x .NET

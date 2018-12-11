@@ -1,0 +1,21 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    width: 800px;
+    font-family: 'Calibri';
+    font-size: 12px;
+}
+
+.clsTexto18 {
+    font-size: 18px;
+}
+
+.clsTexto24 {
+    font-size: 24px;
+}
+
+.clsMsgErro {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 18px;
+}
